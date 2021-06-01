@@ -1,0 +1,21 @@
+.a-svg-icon {
+  position: relative;
+  display: block;
+  white-space: nowrap;
+  fill: var(--text-primary);
+
+  &--small {
+    width: 16px;
+    height: 16px;
+  }
+
+  &--medium {
+    width: 24px;
+    height: 24px;
+  }
+
+  &--large {
+    width: 32px;
+    height: 32px;
+  }
+}

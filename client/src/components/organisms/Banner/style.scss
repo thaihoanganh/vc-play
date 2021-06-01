@@ -1,0 +1,14 @@
+.o-banner {
+  position: relative;
+
+  .o-banner__item {
+    display: flex;
+    width: 100%;
+    background-color: rgb(161, 161, 161);
+
+    &::after {
+      padding-top: 45%;
+      content: "";
+    }
+  }
+}

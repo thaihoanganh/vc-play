@@ -1,0 +1,22 @@
+.a-input {
+  padding: 0 0.5rem;
+  font-size: 1rem;
+  color: var(--text-primary);
+  background-color: var(--color-primary);
+  border: 0;
+  border: 1px solid var(--color-divider);
+  border-radius: 2px;
+  outline: 0;
+
+  &--small {
+    height: 32px;
+  }
+
+  &--medium {
+    height: 40px;
+  }
+
+  &--large {
+    height: 48px;
+  }
+}

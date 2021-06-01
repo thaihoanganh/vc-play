@@ -1,0 +1,14 @@
+.a-view {
+  &--bordered {
+    border: 1px solid var(--color-divider);
+  }
+  &--primary {
+    background-color: var(--color-primary);
+  }
+  &--secondary {
+    background-color: var(--color-secondary);
+  }
+  &--hint {
+    background-color: var(--color-hint);
+  }
+}

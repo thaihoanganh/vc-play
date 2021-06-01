@@ -1,0 +1,40 @@
+.o-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.o-header__logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.o-header__menu {
+  height: 100%;
+}
+
+[data-device="desktop"] {
+  .o-header {
+    position: relative;
+    justify-content: initial;
+    order: initial;
+  }
+
+  .o-header__logo {
+    order: initial;
+    order: 1;
+    padding: 0 2rem 0 0;
+  }
+
+  .o-header__menu {
+    order: 2;
+  }
+
+  .o-header__search {
+    position: absolute;
+    right: 0;
+    order: 3;
+    height: 100%;
+  }
+}
